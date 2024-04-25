@@ -140,7 +140,7 @@ let deleteMember=async () => {
 
 joinAndDisplayLocalStream();
 
-document.getElementById('leave-btn').addEventListener('click', leaveAndRemoveLocalStream)
 document.getElementById('camera-btn').addEventListener('click', toggleCamera)
 document.getElementById('mic-btn').addEventListener('click', toggleMic)
+document.getElementById('leave-btn').addEventListener('click', leaveAndRemoveLocalStream)
 window.addEventListener('beforeunload', deleteMember)

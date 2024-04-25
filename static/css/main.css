@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
 :root{
-  --shadow:0 4px 6px -1px rgba(0,0,0,1), 0 2px 4px -1px rgba(0,0,0,0.6); 
+  --shadow:6px 6px 4px -3px rgb(81 81 110), 0 2px 4px -1px rgba(122, 112, 119, 0.6);
 }
 body{
-background-color: rgb(232, 233, 239, 1);
+background-color: rgb(25, 25, 25, 1);
 font-family: 'Roboto', sans-serif;
+color: #f5f5f5;
 }
 
 /*==================================
@@ -18,7 +19,7 @@ font-family: 'Roboto', sans-serif;
 .form-container{
   width: 400px;
   box-shadow: var(--shadow);
-  background-color: #fff;
+  background-color: rgb(38, 38, 38, 1);
   border-radius: 5px;
   padding: 30px;
   position: fixed;
@@ -43,6 +44,8 @@ font-size: 36px;
 }
 #welcome-message p{
 font-size: 16px;
+color: rgb(204, 204, 204);
+font-weight: 100;
 }
 
 /*==================================
@@ -84,7 +87,9 @@ font-size: 16px;
   width: 100%;
   border: 2px solid rgba(198, 202, 219, 1);
   border-radius: 5px;
+  background-color: #ebebeb;
   padding: 10px;
+  outline: none;
   box-sizing: border-box;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -93,14 +98,17 @@ font-size: 16px;
 }
 
 .form-field input[type='submit']{
-background-color: rgba(75, 93, 172, 1);
+background-color: #b600be;
+padding: 14px;
+font-size: 16px;
+font-weight: bold;
 border: none;
 color: #fff;
 }
 
 @media screen and (max-width:450px){
-  #form-container{
-    width: 95%;
+  .form-container{
+    width: 80%;
   }
   #welcome-message h1{
     font-size: 24px;
@@ -120,10 +128,10 @@ color: #fff;
   top: 10px;
   left: 10px;
   z-index: 99;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -165,4 +173,6 @@ color: #fff;
 }
 #leave-btn{
   background-color: rgb(255, 4, 4);
+  width: 25px;
+  height: 20px;
 }
