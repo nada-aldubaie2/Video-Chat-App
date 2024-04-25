@@ -1,6 +1,5 @@
 # Video-Chat-App
 ## A Group video calling application using the Agora Web SDK with a Django backend.
-<hr>
 
 ## Tech Stack used:
 <div align="center">
