@@ -1,6 +1,7 @@
 # Video-Chat-App
-<div align="center">
 ## Tech Stack used:
+<hr>
+<div align="center">
  
  [![My Skills](https://skillicons.dev/icons?i=html,css,js,python,django,postgresql)](https://skillicons.dev)
  </div>
